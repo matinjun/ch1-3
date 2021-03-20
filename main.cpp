@@ -108,6 +108,7 @@ public:
      * @param lines 
      */
     void read_from_lists(const std::vector<std::string>& lines) {
+
         Lines = lines;
         vt.clear();
         vn.clear();
